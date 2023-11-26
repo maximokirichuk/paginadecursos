@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop</title>
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Copia aqui el header del index.html -->
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+            <a class="logo" href="index.html">
+                <h1  id="container-escalar"class="logo__nombre no-margin centrar-texto">BarberShop</h1>
+            </a>
+        
+        <nav class="navegacion">
+        <a href="nosotros.html" class="navegacion_enlace"id="container-escalar">Nosotros</a>
+        <a href="cursos.html" class="navegacion_enlace"id="container-escalar">Cursos</a>
+        <a href="contacto.html" class="navegacion_enlace"id="container-escalar">Contacto</a>
+        </nav>
+        </div>   
+        </div>
+        <div class="header__texto">
+            <h2>Cuidar tu imagen es nuestro trabajo</h2>
+            <p class="no-margin">Dejalo en manos de profesionales</p>
+        </div>
+        </header>
+    <!-- crea aqui un main con la class contenedor -->
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3> <!-- dale la class centrar-texto a este h3, y colocalo adentro del main-->
+
+    <div class="contacto-gb"></div>    <!-- crea aqui un div con la class "contacto-gb", pero no le agregues nada dentro -->
+
+    <form class="formulario">  <!-- crea aqui un formulario: ponle la clase "formulario" 
+        dentro, colocaras los div que estan a continuacion -->
+        
+            <div class="campo"><!-- dale a este div la clase "campo" -->
+            <label class="campo__label">Nombre</label>    <!-- crea un label, con la clase "campo__label" y con el texto Nombre -->
+            <input type="text" class="campo__field" placeholder="Ingrese su nombre">    <!-- crea un input del tipo text, con la clase "campo__field" y con el placeholder "Ingrese su nombre" -->
+            </div>
+            <div class="campo"><!-- dale a este div la clase "campo" -->
+            <label class="campo__label">E-mail</label>    <!-- crea un label, con la clase "campo label" y con el texto E-mail -->
+            <input type="text" class="campo__field" placeholder="Ingrese su E-mail">    <!-- crea un input del tipo text, con la clase "campo__field" y con el placeholder "Ingrese su Email" -->
+            </div>
+            <div class="campo"><!-- dale a este div la clase "campo" -->
+            <label class="campo__label">Mensaje</label>    <!-- crea un label, con la clase "campo label" y con el texto Mensaje -->
+            <textarea class="campo__field campo__field--textarea"></textarea>    <!-- crea un textarea, con la clase "campo__field campo__field--textarea" -->
+            </div>
+            <div class="campo"><!-- dale a este div la clase "campo" -->
+            <input type="submit" class="boton boton--primario" id="container-escalar" value="Enviar" > <!-- crea un input del tipo submit, con la clase "boton boton--primario" y con el value Enviar -->
+            </div>
+        <!-- aqui deberia cerrar tu formulario--></form> 
+    <!--Aqui deberia cerrar tu main-->
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto" id="container-escalar">BarberShop</h1>
+            </a>
+        
+        <nav class="navegacion #container-escalar:hover">
+        <a href="nosotros.html" class="navegacion_enlace" id="container-escalar">Nosotros</a>
+        <a href="cursos.html" class="navegacion_enlace" id="container-escalar">Cursos</a>
+        <a href="contacto.html" class="navegacion_enlace" id="container-escalar">Contacto</a>
+        </div>
+        </nav>
+        </div>   
+        </div>
+    </footer>      
+<!-- Coloca Aqui el footer de index.html -->
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
